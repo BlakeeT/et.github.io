@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio - Analysis 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Heatmap</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Portfolio</a></li>
+							<li><a href="aboutme.html">About Me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/blake-thorburn-b36847227/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/BlakeeT" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Bruce Highway Crash Heatmap<br /></h1>
+									<p>The most dangerous road in Australia.
+									</p>
+								</header>
+									<br>
+									<div class='tableauPlaceholder' id='viz1654850121911' style='position: relative'><noscript><a href='#'><img alt='Heatmap ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BrucehighwayCrashHeatmap&#47;Heatmap&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BrucehighwayCrashHeatmap&#47;Heatmap' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BrucehighwayCrashHeatmap&#47;Heatmap&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1654850121911');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='2227px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								</p>
+								<p>I was interested in crash data in Queensland as I was curious which road was the most dangerous. I was unable to find government resources to suit, therefore i made my own using government provided datasets.
+									<p>First, I took the dataset to R for cleaning. During cleaning I removed property damage as the government discontinued tracking it throughout the dataset and found the most dangerous road in Queensland by:</p>
+									<a href="#" class="image fit"><img src="images/R heatmappng.png" alt="" /></a>
+									<p>Once the most dangerous road was found, I rebuilt the dataset with only the values from the Bruce highway and moved to Tableau. </p>
+								<p>Once in Tableau, I wanted to create something anyone could use. This is why i chose buttons with dropdown to handle filtering; reducing clutter. Colours blue and orange are also chosen to prevent colourblindness from inhibiting the view.</p>
+								</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">Blakee.thorburn@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/blake-thorburn-b36847227/" class="icon brands alt fa-linkedin"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/BlakeeT" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
